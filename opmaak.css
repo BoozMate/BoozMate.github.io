@@ -1,0 +1,1084 @@
+
+body {
+  font-family: "Lilita One";
+    margin: 0;
+    padding: 0;
+  height: 100%;
+  text-align: center;
+  background: rgb(255,99,16);
+  background: linear-gradient(90deg, rgba(255,99,16,1) 0%, rgba(207,207,207,0.31976540616246496) 50%, rgba(51,102,255,1) 100%);
+   -webkit-text-stroke: 0.3px #ffffff;
+  background:url(https://wallpapers.com/images/featured-full/drink-uio74i0rowuwdowi.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content {
+        margin-left: 0;
+    }
+}
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    width: 40%;
+    margin-left: 205px;
+    margin-top:40px;
+
+}
+
+button.button1 {
+  margin-left: 20%;
+}
+
+
+/*container van opdracht */
+h1 {
+  color: #fff;
+  text-shadow:
+    0 0 2px rgba(0,0,0,0.5),
+    0 0 4px rgba(0,0,0,0.5),
+    0 0 6px rgba(0,0,0,0.5),
+    0 0 10px #ff0095,
+    0 0 45px #ff0095,
+    0 0 55px #ff0095,
+    0 0 70px #ff0095,
+    0 0 80px #ff0095;
+  font-family: "Helvetica Neue", sans-serif;
+}
+@media screen and (max-width: 590px) {
+h1{
+  margin-top:20%;
+}
+}
+
+#container {
+  display: none;
+  background:#ff0095;
+  background-size:cover;
+  color: white;
+  position: fixed;
+  width: 100%;
+  min-height: 20%;
+  -webkit-text-stroke: 0.3px #000000;
+  border-radius: 1%;
+  left: 50%;
+  margin-left: -50%;
+  margin-bottom: 10%;
+  padding: 6px 4px 4px;
+  box-sizing: border-box;
+  overflow: auto;
+  text-align: center;
+}
+
+
+#container .yes {
+  background-color: #ff0095;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid #940056;
+  padding: 5px;
+  margin-right: 10px;
+  text-align: center;
+  width: 60px;
+  float: right;
+  font-family: "Lilita One";
+  color:white;
+}
+
+#container .bom {
+  background-color: #ff0095;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid #940056;
+  padding: 5px;
+  margin-right: 10px;
+  text-align: center;
+  width: 60px;
+  font-family: "Lilita One";
+}
+
+#container .no {
+  background-color: #ff0095;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid #940056;
+  padding: 5px;
+  margin-right: 10px;
+  text-align: center;
+  width: 95px;
+  float: left;
+  font-family: "Lilita One";
+  color:white;
+  -webkit-text-stroke:0.3px black;
+}
+
+#container .yes:hover {
+  background-color: #940056;
+  cursor:pointer;
+}
+
+#container .bom:hover {
+  background-color: #940056;
+  color:white;
+}
+
+#container .no:hover {
+  background-color: #940056;
+  cursor:pointer;
+  
+}
+
+#container .message {
+  text-align: left;
+  padding: 10px 30px;
+  
+}
+
+}
+button a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+#navMenu {
+  display: none;
+}
+.nav {
+  margin-left: -87.5%;
+  position:sticky;
+  width:5%;
+}
+
+.picture-button {
+  border: none;
+  background: black;
+  cursor: pointer;
+  padding: 0;
+  width: 10%;
+  max-width: 100px;
+  height: auto;
+  max-height:100px;
+  margin:1%;
+  border-radius:10%;
+}
+
+.picture-button img {
+  width: 100%; 
+  height: auto;
+  float: left;
+  padding:0.2%;
+  border-radius:10%;
+
+}
+
+
+
+
+
+/* startknop */
+#startknop{
+  color:white;
+  appearance: none;
+  background-color: #ff0095;
+  border-radius: 4em;
+  border-style: none;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width:30%;
+  height:30%;
+  
+}
+
+#startknop:hover {
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+  transform: scale(1.125);
+  cursor: pointer;
+}
+
+#startknop:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  #startknop {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+.starth1{
+  margin-top:10%;
+  margin-bottom:10%;
+  font-size: 200%;
+  -webkit-text-stroke:2% white;
+}
+
+.textback{
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  padding:0.5%;
+}
+
+.gamesicons{
+  margin-top:10%;
+  width:30%;
+  height:30%;
+  background:rgba(0, 0, 0, 0.3);
+  border:1px solid black;
+  padding:2%;
+  max-width:100px;
+  max-height:100px;
+}
+
+.gamesicons:hover{
+  background:rgba(255,255,255,0.3);
+}
+
+.gamesa{
+  margin-right:5%;
+}
+
+.gamesmenu{
+display:contents;
+  font-size:0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.p-menu1{
+   height: 20%;
+  position:relative;
+}
+/* mijnen */
+.mijnenknop{
+background: black;
+  border-radius:10%;
+  width: 40px;
+  height:40px;
+  margin:5px;
+  max-width:10%;
+  color:white;
+  font-family: "Lilita One", sans-serif;
+  transition: all 0.2s;
+  border:white 1px solid;
+  
+}
+
+.mijnenknop2{
+background: none;
+  border-radius:10%;
+  width: 40px;
+  height:40px;
+  margin:5px;
+  max-width:10%;
+  color:white;
+  font-family: "Lilita One", sans-serif;
+   -webkit-text-stroke: 0.5px black;
+  border:white 1px solid;
+
+}
+
+.mijnenknop:hover{
+  background: #ff0095;
+  cursor:pointer;
+  box-shadow:
+  0 0 2px rgba(0,0,0,0.5),
+  0 0 4px rgba(0,0,0,0.5),
+  0 0 6px rgba(0,0,0,0.5),
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+}
+
+.mijnenknop:active{
+  background:#ff0095;
+  box-shadow:
+  0 0 2px rgba(0,0,0,0.5),
+  0 0 4px rgba(0,0,0,0.5),
+  0 0 6px rgba(0,0,0,0.5),
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+
+}
+
+
+.footer-container{
+  height:150%;
+}
+/* startscherm */
+.drunk{
+  font-size:400%;
+  color:black;
+  text-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px white,
+  0 0 45px white,
+  0 0 55px white,
+  0 0 70px white,
+  0 0 80px white;
+}
+
+.pill{
+
+   -webkit-text-stroke: 0.2px black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  border:black 1px solid;
+  width:40%;
+  font-family: "Lilita One", sans-serif;
+  max-width:400px;
+  font-size:1rem;
+  -webkit-transition: all 0.5s ease;
+
+}
+
+#redpill{
+
+margin-right: 5%;
+  border:red solid 3px;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px red,
+  0 0 45px red,
+  0 0 55px red,
+  0 0 70px red,
+  0 0 80px red;
+  background:red;
+  color:white;
+  }
+  
+#bluepill{
+margin-left:5%;
+  border:blue solid 3px;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px blue,
+  0 0 45px blue,
+  0 0 55px blue,
+  0 0 70px blue,
+  0 0 80px blue;
+  background:blue;
+  color:white;
+}
+
+#redpill:hover{
+  background:white;
+  color:black;
+}
+
+#bluepill:hover{
+  background:white;
+  color:black;
+}
+
+.BoozMatelogo{
+  width:100px;
+  height:auto;
+  margin-bottom:-30px;
+}
+
+
+body::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+
+body::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+  border-radius: 10px;
+  background-color: #CCCCCC;
+}
+
+
+body::-webkit-scrollbar-thumb
+{
+  background-color:black;
+  background-image: -webkit-linear-gradient(90deg,
+                                            
+                        rgba(255, 112, 195, 1) 25%,
+                        transparent 100%,
+                        rgba(255, 255, 255, 1) 75%,
+                        transparent);
+  
+  border-radius:10px;
+
+}
+
+body:hover::-webkit-scrollbar-thumb {
+background-color:#ff0095;
+
+}
+
+/* start knop */
+
+#startknoplaatste{
+ padding-bottom:10%; 
+}
+.bomresult{
+  width:10%;
+height: auto;
+  position: absolute;
+  top:50%;
+  left: 50%;
+}
+
+.bomresult{
+  width:80px;
+height: auto;
+  margin-top:-40px;
+}
+
+.ui { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+} 
+.row { 
+  display: flex; 
+} 
+.cell { 
+  border: none; 
+  width: 80px; 
+  height: 80px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 24px; 
+  text-align: center; 
+  cursor: pointer; 
+} 
+.cell:active { 
+  outline: none; 
+} 
+
+/* keuze van een opdracht */
+.Eigenkeuze{
+  cursor:pointer;
+    width:80%;
+    float:middle;
+    transition:transform 0.4s ease;
+    padding-top:10px;
+    padding-bottom:10px;
+   background-color: rgba(0, 0, 0, 0.3);
+    color:rgb(255,99,16);
+    font-family:"Lilita One";
+    font-size:1.5rem;
+  -webkit-text-stroke: 0.3px #000000;
+  border:none;
+}
+
+.Eigenkeuzeinvoer{
+  cursor:text;
+    width:80%;
+  margin-bottom: 2%;
+    float:middle;
+    transition:transform 0.4s ease;
+    padding-top:10px;
+    padding-bottom:10px;
+   background-color: rgba(255, 255, 255, 0.3);
+    color:white;
+    font-family:"Lilita One";
+    font-size:1.5rem;
+  border:3px white solid;
+  -webkit-text-stroke: 0.3px #000000;
+  border-radius: 10px;
+
+}
+
+  .Eigenkeuzeinvoer:focus{
+    background-color: white;
+     color:black;
+  }
+  .placeholder{
+    text-align: center;
+  }
+
+  ::placeholder{
+    color:#5c5cff;
+     -webkit-text-stroke: 0.3px black;
+  }
+
+  #keuzeformulier{
+    z-index:100;
+    position:absolute;
+    width:80%;
+    margin:10px 10%;
+    border:1px white solid;
+    border-radius:20px;
+    padding-bottom:80px;
+    display:none;
+    background:#ff0095;
+    margin-top:-120px;
+    font-size: 1.5rem;
+    box-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #ff0095,
+    0 0 45px #ff0095,
+    0 0 55px #ff0095,
+    0 0 70px #ff0095,
+    0 0 80px #ff0095;
+  }
+
+  #veranderopdrachten{
+    font-size:30px;
+    color:white;
+     -webkit-text-stroke: 0.3px #000000;
+  }
+
+  #togglebutton {
+    float:left;
+    z-index:-10;
+    left:0;
+    background-color: transparent;
+    color: white;
+    font-size:80%;
+    cursor: pointer;
+    width: 150px;
+    z-index:10;
+    border-radius:0px 0px 10px 0px;
+    border-right:black 3px solid;
+    border-bottom:black 3px solid;
+    border-left:transparent 3px solid;
+    border-top:transparent 3px solid;
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #ff0095,
+    0 0 45px #ff0095,
+    0 0 55px #ff0095,
+    0 0 70px #ff0095,
+    0 0 80px #ff0095;
+    position:absolute;
+    padding: 8px;
+  }
+
+
+  #togglebutton:hover {
+    background-color: #ff0095;
+    box-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #ff0095,
+    0 0 45px #ff0095,
+    0 0 55px #ff0095,
+    0 0 70px #ff0095,
+    0 0 80px #ff0095;
+  }
+  #togglebutton:hover svg {
+    fill: white;
+  }
+
+  #opslaanknop{
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 4em;
+    border-style: none;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width:30%;
+    height:30%;
+
+  }
+
+  #opslaanknop:hover {
+    background-color: white;
+     box-shadow:
+      0 0 2px rgba(0,0,0,0.5),
+      0 0 4px rgba(0,0,0,0.5),
+      0 0 6px rgba(0,0,0,0.5),
+      0 0 10px white,
+      0 0 45px white,
+      0 0 55px white,
+      0 0 70px white,
+      0 0 80px white;
+    transform: scale(1.125);
+    
+  }
+
+  #opslaanknop:active {
+    transform: scale(1.025);
+  }
+
+  @media (min-width: 768px) {
+    #opslaanknop {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
+
+
+
+/* boter kaas en eieren */ 
+.ttt-cel{
+  width: 70px;
+  height: 70px;
+  border: 3px solid white;
+  border-radius:10%;
+  margin: 10px;
+  font-family: "Lilita One", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 100px;
+  background: transparent;
+  padding:0px;
+   -webkite-text-stroke: 0px black;
+  color:black;
+  position:relative;
+cursor:pointer;
+}
+
+.ttt-cel:focus{
+  cursor:default;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+}
+
+.ttt-row{
+  height:70px;
+  margin-bottom:20px;
+}
+
+.ttt-p{
+  color:transparent;
+  margin-top:-15px;
+  -webkit-text-stroke-color:transparent;
+  text-align:center;
+  height:70px;
+}
+
+/* navigatie menu */
+.dropbtn2 {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  cursor: pointer;
+  margin-right: 0%;
+  width: 100%;
+  z-index:10;
+  border-radius:0% 0% 0% 10px;
+  border-left:black 3px solid;
+  border-bottom:black 3px solid;
+  border-right:transparent 3px solid;
+  border-top:transparent 3px solid;
+  font-size:1rem;
+  text-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  cursor: pointer;
+  margin-right: 0%;
+  width: 100%;
+  z-index:10;
+  border-radius:0% 0% 0% 10px;
+  border-left:black 3px solid;
+  border-bottom:black 3px solid;
+  border-right:transparent 3px solid;
+  border-top:transparent 3px solid;
+  font-size:1rem;
+  text-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ff0095;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  top: 0; 
+  right: 0; 
+  z-index:1;
+}
+
+.dropdown-content {
+  display: none;
+  border-radius:0% 0% 0% 10px;
+  border-left:black 3px solid;
+  border-bottom:black 3px solid;
+  border-right:transparent 3px solid;
+  border-top:transparent 3px solid;
+  font-size:1rem;
+  width: 95%;
+  animation: slideFromTopRight 0.5s ease forwards;
+  transform-origin: top right;
+  color:white;
+
+}
+
+@keyframes slideFromTopRight {
+  from {
+    opacity: 0;
+    transform: translateY(-100%) translateX(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-shadow:
+  0 0 2px rgba(0,0,0,0.5),
+  0 0 4px rgba(0,0,0,0.5),
+  0 0 6px rgba(0,0,0,0.5),
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+}
+
+.dropdown-content a:hover {
+  background-color: #ff0095;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+}
+
+.dropdown-icon{
+  vertical-align: middle;
+   filter: drop-shadow(0 0 2px #fff) 
+     drop-shadow(0 0 4px #fff)  
+     drop-shadow(0 0 6px #fff) 
+     drop-shadow(0 0 10px #ff0095) 
+     drop-shadow(0 0 45px #ff0095) 
+     drop-shadow(0 0 55px #ff0095) 
+     drop-shadow(0 0 70px #ff0095) 
+     drop-shadow(0 0 80px #ff0095);
+   transition: transform 0.5s ease;
+  }
+.dropdown-icon.flipped{
+  transform: rotate(180deg);
+}
+/* boter kaas en eieren */    
+.show {
+  display: block;
+}
+
+p{
+  color:white;
+  -webkit-text-stroke-color: transparent;
+}
+.result{
+  width:100%;
+  height:auto;
+  margin-top:5%;
+  color: red;
+  font-size:1.5rem;
+}
+
+.reset-button{
+  width:100px;
+  height:30px;
+  border-radius:10px;
+  cursor:pointer;
+  background:red;
+  color:white;
+  font-family:"Lilita One";
+  font-size:1rem;
+  -webkit-text-stroke: 0.3px black;
+  border:1px red;
+  margin-bottom:2%;
+}
+
+.reset-button:hover{
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px red,
+  0 0 45px red,
+  0 0 55px red,
+  0 0 70px red,
+  0 0 80px red;
+  color:black;
+}
+
+.counter-text{
+  font-size:1rem;
+  font-family:"Lilita One";
+  float:left;
+  margin-left:20%;
+}
+
+.counterdiv{
+  background:#ff0095;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+  width:100px;
+  height:50px;
+  border-radius:10px;
+  float:left;
+  position:relative;
+  z-index:-100;
+  justify-content: center;
+}
+
+.counter-container{
+  justify-content: center;
+  width:240px;
+  display: inline-block;
+}
+
+#counterdivo{
+  margin-left:40px;
+}
+
+#wintext{
+  color:white;
+}
+
+.wintext-container{
+  width:10%;
+  position:fixed;
+  color:white;
+}
+
+/*kaartspel*/
+#uitlegkaart{
+  font-size:1rem;
+}
+
+#woordkaart{
+  font-size:2rem;
+  color:red;
+}
+
+#kaartfoto{
+  height:200px;
+  width:auto;
+  border-radius:10px;
+}
+
+#kaartknop{
+  width:200px;
+  height:40px;
+  border-radius:10px;
+  background:red;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px red,
+  0 0 45px red,
+  0 0 55px red,
+  0 0 70px red,
+  0 0 80px red;
+  font-family:"Lilita One";
+  font-size:1.5rem;
+  color:white;
+  border:white 2px solid;
+  cursor:pointer;
+}
+
+#kaartknop:hover{
+background:black;
+}
+
+#koningenfotosdiv{
+  width:230px;
+}
+.koningenfotos{
+  height:50px;
+  width:auto;
+  margin-top:10%;
+  margin-bottom:-20%;
+}
+
+.uitlegdiv{
+  background:rgba(0, 0, 0, 0.8);
+  padding:10px;
+}
+
+
+
+/* tabel voor regels kingsen */
+/* Voeg hier je CSS-stijlen toe */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  -webkit-text-stroke-color:transparent;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 255, 0.8);
+  color:white;
+}
+tr:nth-child(odd){
+  background-color: rgba(255,255,255,0.8);
+}
+
+td{
+-webkit-text-stroke-color:transparent;
+}
+
+#map{
+  width:300px;
+  height:300px;
+}
+.naastelkaar{
+  float: left;
+  
+}
+
+/*Eten pagina*/
+.etenknop{
+  width:200px;
+  height:auto;
+  color:black;
+  background:white;
+  border-radius:10px;
+  padding:10px;
+  margin:5px;
+  cursor:pointer;
+  font-family:"Lilita One";
+  font-size:1.5rem;
+  border:none;
+}
+
+.etenknop:hover{
+background:black;
+  color:white;
+  box-shadow:
+  0 0 2px rgba(0,0,0,0.5),
+  0 0 4px rgba(0,0,0,0.5),
+  0 0 6px rgba(0,0,0,0.5),
+  0 0 10px #ff0095,
+  0 0 45px #ff0095,
+  0 0 55px #ff0095,
+  0 0 70px #ff0095,
+  0 0 80px #ff0095;
+}

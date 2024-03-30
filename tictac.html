@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+  
+<head>
+  <link rel="icon" type="image/x-icon" href="/fotos/BoozMate.ico">
+  <link href=opmaak.css Rel=stylesheet>
+  <script src="script.js"></script>
+  <script src="tictac.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoozMate - Boter-Kaas-en-Eieren</title>
+
+</head>
+
+<body>
+
+
+
+  <div class="dropdown">
+    <button onclick="Dropdown();toggleDropdown()" class="dropbtn">MENU
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" class='dropdown-icon'>
+        <path d="M7 10l5 5 5-5z" fill='white'/>
+      </svg>
+    </button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="/index.html">Home</a>
+      <a href="/start.html">Games</a>
+      <a href="/Spelregels.html">Regels</a>
+    </div>
+  </div>
+
+
+  
+
+ 
+
+  <div>
+    <h1>Boter-Kaas-en-Eieren</h1>
+  </div>
+  <div class="wintext-container>"<p id="wintext"></p></div>
+  <br>
+  <br>
+  <div class="counter-container">
+      <div class="counterdiv" id="counterdivx"><p class=counter-text>X wins: <p class="winvalue" id="xwinvalue">0</p></p></div>
+    
+    <div class="counterdiv" id="counterdivo"><p class=counter-text>O wins: <p class="winvalue" id="owinvalue">0</p></p></div>
+  </div>
+  
+  
+  <br> <br> <br><br>
+
+  <div class="ttt-container">
+    
+<div class="ttt-row">
+  <button class="ttt-cel" id="ttt-cel1" onclick="tttb1(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p1">-</p></button>
+  <button class="ttt-cel" id="ttt-cel2" onclick="tttb2(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p2">-</p></button>
+  <button class="ttt-cel" id="ttt-cel3" onclick="tttb3(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p3">-</p></button>
+</div>
+
+    <div class="ttt-row">
+      <button class="ttt-cel" id="ttt-cel4" onclick="tttb4(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p4">-</p></button>
+      <button class="ttt-cel" id="ttt-cel5" onclick="tttb5(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p5">-</p></button>
+      <button class="ttt-cel" id="ttt-cel6" onclick="tttb6(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p6">-</p></button>
+    </div>
+
+    <div class="ttt-row">
+      <button class="ttt-cel" id="ttt-cel7" onclick="tttb7(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p7">-</p></button>
+      <button class="ttt-cel" id="ttt-cel8" onclick="tttb8(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p8">-</p></button>
+      <button class="ttt-cel" id="ttt-cel9" onclick="tttb9(); checkwin(); checkwintext(); tttcounter()"><p class="ttt-p" id="p9">-</p></button>
+    </div>
+    
+    
+  </div>
+<br><br><br>
+  <div class="reset-container">
+    <button class="reset-button" onclick="reset()">RESET</button>
+  </div>
+
+
+
+</body>
+
+</html>

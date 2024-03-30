@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  
+<head>
+   <link rel="icon" type="image/x-icon" href="/fotos/BoozMate.ico">
+  <link href=opmaak.css Rel=stylesheet >
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoozMate - Mijnenveld</title>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+      </script>
+    <script src = App2.js > </script>
+    <script src = script.js > </script>
+    </head>
+    <body>
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <div class="dropdown2">
+      <button id="togglebutton" onclick='clicktoggle()'>
+        <p class="settingtext">Verander opdrachten</p>
+      </button>
+    </div>
+       
+<br>
+       
+      <div class="dropdown">
+        <button onclick="Dropdown();toggleDropdown()" class="dropbtn">MENU
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" class='dropdown-icon'>
+            <path d="M7 10l5 5 5-5z" fill='white'/>
+          </svg>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="/index.html">Home</a>
+          <a href="/start.html">Games</a>
+          <a href="/Spelregels.html">Regels</a>
+        
+        </div>
+      </div>
+      
+<h1> Mijnenveld</h1>
+      
+  <div class="textback">
+      <p> Het spel is simpel, om de beurt drukt iemand op een mijn. <br>Elke mijn bevat een opdracht.<br> De opdracht moet uitgevoerd worden, zo niet, dat wordt zuipuh! <br> Het kan zijn dat je veel moet drinken... <br>
+      Linksboven is het mogelijk om opdrachten aan te passen.</p>
+
+  </div>
+     
+      
+      <div id="keuzeformulier">
+        <p id="veranderopdrachten">Verander hieronder de opdrachten in het spel.</p>
+            <form id="mijnFormulier">
+            <div class='placeholder'>
+              <input placeholder="Deel een atje uit" title="Deel een atje uit" Class='Eigenkeuzeinvoer' id='keuze0' type="text">
+                 </div> 
+
+            <div class='placeholder'>
+          <input placeholder="Deel een atje uit 023" title="Deel een atje uit 023" Class='Eigenkeuzeinvoer' id='keuze1' type="text">
+             </div>  
+            <div class='placeholder'>
+              <input placeholder="Potje vingeren, verliezer moet een shotje nemen" title="Potje vingeren, verliezer moet een shotje nemen" class='Eigenkeuzeinvoer' id='keuze2' type="text">
+                 </div>  
+            <div class='placeholder'>
+              <input placeholder="Doe een wedstrijdje wie als eerste een glas leeg heeft met iemand van jouw keuze" title="Doe een wedstrijdje wie als eerste een glas leeg heeft met iemand van jouw keuze" Class='Eigenkeuzeinvoer' id='keuze3' type="text">
+                 </div>  
+            <div class='placeholder'>
+              <input placeholder="Laat degene die rechts van je zit, een bericht naar iemand sturen op jouw telefoon" title="Laat degene die rechts van je zit, een bericht naar iemand sturen op jouw telefoon" Class='Eigenkeuzeinvoer' id='keuze4' type="text">
+                 </div>  
+            <div class='placeholder'>
+              <input placeholder="Speel een rondje Ik heb nog nooit...: Iedereen die het wel heeft gedaan, moet drinken." title="Speel een rondje Ik heb nog nooit...: Iedereen die het wel heeft gedaan, moet drinken." Class='Eigenkeuzeinvoer' id='keuze5' type="text">
+                 </div>  
+
+             <div class='placeholder'>
+               <input placeholder="Zoek in whatsapp een woord op een laat het aan de rest van de groep zien: de rest mag bepalen welk woord" title="Zoek in whatsapp een woord op een laat het aan de rest van de groep zien: de rest mag bepalen welk woord" Class='Eigenkeuzeinvoer' id='keuze6' type="text">
+                  </div> 
+
+            <div class='placeholder'>
+              <input placeholder="Een medespeler zet een lied op die jij moet raden, fout is atje" title="Een medespeler zet een lied op die jij moet raden, fout is atje" Class='Eigenkeuzeinvoer' id='keuze7' type="text">
+                 </div> 
+
+            <div class='placeholder'>
+              <input placeholder="Doe een korte imitatie van een vriend in de groep: Als het niet wordt herkend, neem je een slok." title="Doe een korte imitatie van een vriend in de groep: Als het niet wordt herkend, neem je een slok." Class='Eigenkeuzeinvoer' id='keuze8' type="text">
+                 </div> 
+
+            <div class='placeholder'>
+              <input placeholder="Veilig." title="Veilig." Class='Eigenkeuzeinvoer' id='keuze9' type="text">
+                 </div> 
+
+              <div class='placeholder'>
+                <input placeholder="Bom (Refresh pagina)" title="Bom (Refresh pagina)" Class='Eigenkeuzeinvoer' id='keuze10' type="text">
+                   </div> 
+
+
+            <div class='placeholder'>
+              <input placeholder="Neem een slok." title="Neem een slok."Class='Eigenkeuzeinvoer' id='keuze11' type="text">
+                 </div> 
+
+            <div class='placeholder'>
+              <input placeholder="Geef een slok weg." title="Geef een slok weg." Class='Eigenkeuzeinvoer' id='keuze12' type="text">
+                 </div> 
+                <br><br>
+           <input id="opslaanknop" type="submit" value="Opslaan">
+          </form>
+      </div>
+      
+      
+
+      
+        	<br><br>
+        	<div id="container">
+        		<div class="message">
+              <p id="uitkomst">UITKOMST</p>
+            </div>
+        		<button class="yes" >Oké</button>
+         
+            <a href=index.html><button class="no">Home</button></a>
+        	</div>
+      
+    
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+        
+      <br>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      
+
+      <br>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      
+
+      <br>
+
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      
+      <br>
+
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+     
+      <br>
+
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+      <button class='mijnenknop' onclick='vervangKnop(this); geeks()'>⍰</button>
+<br>
+      
+      
+
+      
+
+    </body>
+      
+</html>
