@@ -133,7 +133,7 @@ function geeks(msg, gfg) {
      
 
       var img = document.createElement('img');
-      img.src = '/fotos/bom.png';
+      img.src = 'bom.png';
       img.classList.add('bomresult');
       
       if (number >= 1 && number < 3) {
